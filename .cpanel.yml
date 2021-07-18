@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/connzdzv/repositories/PortfolioWebsite/Website
+    - export DEPLOYPATH=/home/connzdzv/public_html/
+    - /bin/cp /home/connzdzv/repositories/PortfolioWebsite/Website/*
